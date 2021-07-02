@@ -22,4 +22,10 @@ public class TestController {
     public String test4(){
         return "哈哈哈哈4";
     }
+
+    @RequestMapping("/hello5")
+    public String test5(){
+        return "哈哈哈哈4";
+    }
+
 }
