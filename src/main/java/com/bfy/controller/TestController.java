@@ -13,4 +13,8 @@ public class TestController {
     public String test2(){
         return "哈哈哈哈2";
     }
+    @RequestMapping("/hello3")
+    public String test3(){
+        return "哈哈哈哈3";
+    }
 }
