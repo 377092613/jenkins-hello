@@ -28,4 +28,8 @@ public class TestController {
         return "哈哈哈哈5";
     }
 
+    @RequestMapping("/hello6")
+    public String test6(){
+        return "哈哈哈哈6";
+    }
 }
