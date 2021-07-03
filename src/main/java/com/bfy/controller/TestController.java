@@ -32,4 +32,8 @@ public class TestController {
     public String test6(){
         return "哈哈哈哈6";
     }
+    @RequestMapping("/hello7")
+    public String test7(){
+        return "哈哈哈哈7";
+    }
 }
